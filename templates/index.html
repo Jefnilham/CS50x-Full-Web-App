@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class='parent grid-parent'>
+    <div class='child'>
+<h5>Total Distance Ran So far:</h5>
+
+            {% for row in sum_run_rows %}
+
+                    <h1 style=font-size:100px><span style="color: blue;"> {{ row['ROUND(SUM(run), 2)'] }} km </span></h1>
+
+            {% endfor %}
+</div>
+<div class='child'>
+<h5>Weight Lost So far:</h5>
+
+            {% for row in weight_loss %}
+
+                    <h1 style=font-size:100px><span style="color: green;"> {{ row['ROUND(MAX(weight)-MIN(weight), 1)'] }} kg </span></h1>
+
+            {% endfor %}
+</div>
+{% endblock %}
+

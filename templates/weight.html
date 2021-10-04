@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Weight
+{% endblock %}
+
+
+{% block main %}
+    <form action="/weight" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="weight" placeholder="Weight in kg" type="text"/>
+        </div>
+        <button class="btn btn-primary" type="submit">Enter</button>
+
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}

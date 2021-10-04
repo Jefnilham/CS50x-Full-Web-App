@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Run-Log
+{% endblock %}
+
+{% block main %}
+
+    <table class = "table table-striped">
+        <thead>
+            <tr>
+                <th> Run </th>
+                <th> Minutes </th>
+                <th> Datetime </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in run_rows %}
+                <tr>
+                    <td> {{ row['run'] }} </td>
+                    <td> {{ row['minutes'] }} </td>
+                    <td> {{ row['datetime'] }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+{% endblock %}

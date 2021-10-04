@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Weight-Log
+{% endblock %}
+
+{% block main %}
+    <table class = "table table-striped">
+        <thead>
+            <tr>
+                <th> Weight </th>
+                <th> Datetime </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in weight_rows %}
+                <tr>
+                    <td> {{ row['weight'] }} </td>
+                    <td> {{ row['datetime'] }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+
+
+    </table>
+{% endblock %}

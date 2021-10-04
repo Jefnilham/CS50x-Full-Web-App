@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    BMI
+{% endblock %}
+
+{% block main %}
+
+
+    <script type="text/javascript">
+        function compute_BMI(){
+            var height = Number(document.getElementById("height").value);
+            var weight = Number(document.getElementById("weight").value);
+            var BMI = weight / Math.pow(height, 2);
+
+        document.getElementById("output").innerHTML = Math.round(BMI * 100)/100;
+            if (BMI == "") document.getElementById("comment").innerHTML = "Enter height and weight first.";
+            if (BMI < 18.5) document.getElementById("comment").innerHTML = "Underweight :(";
+            if (BMI >= 18.5 && BMI <= 25) document.getElementById("comment").innerHTML = "Healthy :)";
+            if (BMI >= 25 && BMI <= 30) document.getElementById("comment").innerHTML = "Overweight :(";
+            if (BMI > 30) document.getElementById("comment").innerHTML = "Obese :((";
+       }
+
+
+    </script>
+
+    </head>
+    <body class = 'center monospace'>
+
+
+
+        <img src = "https://type2diabetes.com/wp-content/uploads/2018/07/bmi-chart-1.png"
+        alt = "BMI Scale" TITLE = "https://type2diabetes.com/living/friends-with-scale/" height = "350">
+
+    <p>
+        <div>
+            <input type="weight" id="weight"> kilograms /
+            ( <input type="height" id="height"> metres)^2 =
+            <input type="button" value="Check your BMI" onclick="compute_BMI()">
+        </div>
+    </p>
+
+        <p>
+            Your BMI is: <span id="output"></span>
+            </p>
+            <p>
+            You are: <span id='comment'></span>
+        </p>
+
+
+
+
+
+    </body>
+{% endblock %}
