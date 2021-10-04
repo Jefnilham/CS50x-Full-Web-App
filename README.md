@@ -10,6 +10,8 @@ Shows total distance recorded.
 Login:
 Login with username and password.
 Rejects empty and/or invalid users/passwords.
+![image](https://user-images.githubusercontent.com/39832806/135781931-ebc166e6-810f-44ea-a485-ac41aa325fbc.png)
+
 
 Logout:
 Logs user out.
