@@ -67,3 +67,6 @@ Displays full history of fitness.db's weight table.
 
 Run-log:
 Displays full history of fitness.db's run table.
+
+Video demo:
+https://www.youtube.com/watch?v=3C6iwvExu_I
