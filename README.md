@@ -7,9 +7,13 @@ Index:
 Shows total weight loss recorded.
 Shows total distance recorded.
 
+![image](https://user-images.githubusercontent.com/39832806/135781983-fd596f1c-1b99-4f64-89de-0f09afa5d6ce.png)
+
+
 Login:
 Login with username and password.
 Rejects empty and/or invalid users/passwords.
+
 ![image](https://user-images.githubusercontent.com/39832806/135781931-ebc166e6-810f-44ea-a485-ac41aa325fbc.png)
 
 
@@ -27,6 +31,7 @@ JavaScript within bmi.html to display user's BMI and condition e.g. "obese"
 Weight:
 Records input into weight-logs.
 Converts to 1 d.p.
+
 
 Run:
 Records input into run-log.
