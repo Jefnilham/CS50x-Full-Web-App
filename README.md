@@ -44,6 +44,8 @@ Converts to 1 d.p.
 
 ![image](https://user-images.githubusercontent.com/39832806/135782475-f9224aa9-9331-4d08-a138-2b1bbe0a0f24.png)
 
+![image](https://user-images.githubusercontent.com/39832806/135782633-a78d8182-cb99-4dc2-82fc-525c95cc90af.png)
+
 ![image](https://user-images.githubusercontent.com/39832806/135782563-0e22df82-7fbd-4440-8932-ba90d07a3d5a.png)
 
 
@@ -53,6 +55,8 @@ Records input into run-log.
 Converts to 2 d.p.
 
 ![image](https://user-images.githubusercontent.com/39832806/135782314-a3dd6b19-1852-45ab-a282-b520d119abbf.png)
+
+
 
 
 
