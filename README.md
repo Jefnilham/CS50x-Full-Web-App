@@ -56,7 +56,9 @@ Converts to 2 d.p.
 
 ![image](https://user-images.githubusercontent.com/39832806/135782314-a3dd6b19-1852-45ab-a282-b520d119abbf.png)
 
+![image](https://user-images.githubusercontent.com/39832806/135782728-50fee64f-6b34-4691-b3f8-a58de4d361d8.png)
 
+![image](https://user-images.githubusercontent.com/39832806/135782766-8cacba24-d07c-4f9d-a8d3-61c3d6441a82.png)
 
 
 
